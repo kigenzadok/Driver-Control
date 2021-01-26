@@ -1,0 +1,67 @@
+class DriverControl
+{
+    drive()
+    {
+        //checking car soorounding and starting the car
+       start()
+       {
+           //checking sorounding before starting the car
+           monitoring();
+           //selecting the drivemodes
+           control();
+           decision_make();
+           
+       } 
+    }
+    control()
+    {
+   
+      var Modes
+        switch(drivemodes)
+        {
+            case 1:
+            Eco
+            break;
+            case 2:
+            Sports
+            break;
+            case 3:
+            Comfort
+            break;
+            case 4:
+            Off-the-road
+            break;
+        }  
+    }
+    //
+    monitoring()
+    {
+        checkstopsigns()
+        {
+            if stopsigns = yes
+            {
+                checkcrossroad()
+                {
+                   if (crossroad = yes)
+                   decision_make();
+                   else continue;
+                }
+            }
+            else continue
+        }
+
+        //check crossroads
+        //check 
+    }
+    decision_make()
+    {
+        
+        trfficCheck()
+        {
+            if (traffic = yes)
+            Stop 
+            else continue
+        }
+    }
+
+}
